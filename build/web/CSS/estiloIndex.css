@@ -1,0 +1,118 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 29 ago. 2022, 17:13:56
+    Author     : User
+*/
+:root{
+    --blanco: #ffffff;
+    --oscuro: #212121;
+    --primario: #ffc107;
+    --secundario: #0097a7;
+    --gris: #757575;
+    --grisclaro: #DFE9F3;
+}
+/*Globales*/
+*{
+    font-family: arial;
+}
+
+html{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Formulario*/
+.formulario{
+    width: 40rem;
+    background-color: var(--secundario);
+    margin: 0 auto;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.formulario legend{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: var(--blanco);
+}
+.formulario fieldset{
+    border: none;
+    
+    
+}
+
+.formulario label{
+    font-size: 2.1rem;
+    color: var(--blanco);
+    font-weight: 400;
+    margin-bottom: .5rem;
+    display: block;
+    margin-bottom: 0;
+}
+.formulario .items{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    
+}
+
+.formulario .items .user-pass{
+    display: block;
+    margin-bottom: 1rem;
+    width: 100%;
+    
+}
+.user,
+.pass{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 1rem;
+}
+
+
+/*Boton */
+
+.boton{
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding: .8rem 3rem;
+    border: none;
+    font-weight: 700;
+    background-color: var(--gris);
+    color: var(--blanco);
+    margin-top: 1rem;
+    width: 100%;
+    text-align: center;
+    
+}
+/*texto*/
+.text{
+    width: 40rem;
+    margin-top: 1rem;
+    background-color: var(--primario);
+    color: var(--blanco);
+    text-align: center;
+    font-size: 1.8rem;
+    padding: 1rem;
+    border-radius: 5px;
+}
